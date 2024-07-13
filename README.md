@@ -8,6 +8,7 @@ Developed a web-based information retrieval system to search and retrieve data f
 Utilized a static JSON file (books.json) containing 10,000 entries for the data source.
 
 ![1](https://github.com/user-attachments/assets/057b6d8c-e980-44c5-a6e3-76db7a7dfc95)
+
 # Features:
 * **Search Functionality**:
   * Implemented search functionality to query the dataset based on book titles.
