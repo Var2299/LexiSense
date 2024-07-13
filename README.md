@@ -1,4 +1,4 @@
-# Project Title: Information Retrieval System
+# Project Title: QueryFinder(Information Retrieval System)
 
 # Technologies Used: JavaScript, Node.js, Express, JSON
 
