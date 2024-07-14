@@ -1,39 +1,61 @@
-# Project Title: QueryFinder(Information Retrieval System)
+# Project Title: BookExplorer(Information Retrieval System)
+# Books Search App
 
-# Technologies Used: JavaScript, Node.js, Express, JSON
+This project allows users to search for books using the Google Books API and displays the results in a user-friendly interface. It includes advanced features such as a dynamic search form, animated background, and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data.
 
-# Project Description:
+## Features
+- **Search Functionality**: Users can search for books by entering keywords.
+- **Dynamic Book Listings**: Displays book information including title, author, description, and a preview link.
+- **Animated Background**: Features a visually appealing, animated background.
+- **Changing Heading Text**: The heading text changes colors to maintain visibility against the changing background.
+- **Information Retrieval**: Demonstrates efficient information retrieval from a large dataset using the Google Books API.
+- **Responsive Design**: Ensures the application works seamlessly across devices.
 
-Developed a web-based information retrieval system to search and retrieve data from a large dataset.
-Utilized a static JSON file (books.json) containing 10,000 entries for the data source.
+## Technologies & Tools Used
+### Frontend
+- React.js
+- CSS3
+- HTML5
+- JavaScript
 
-![1](https://github.com/user-attachments/assets/057b6d8c-e980-44c5-a6e3-76db7a7dfc95)
+### APIs
+- Google Books API
 
-# Features:
-* **Search Functionality**:
-  * Implemented search functionality to query the dataset based on book titles.
-  * Filters results dynamically based on user input.
+### Development Tools
+- VS Code
 
-* **Large Dataset Handling**:
-  * Managed and processed a large dataset efficiently.
-  * Demonstrated capability to handle extensive data operations in a web application.
+## Installation and Usage
+To use this app, you can follow these steps:
 
-* **RESTful API**:
-  * Created a RESTful API endpoint (`/search`) to handle search requests.
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    ```
 
-* **User-Friendly Interface**:
-  * Simple and intuitive interface for users to input search queries.
+2. **Navigate to the project directory**:
+    ```bash
+    cd project-directory
+    ```
 
-* **Performance Optimization**:
-  * Ensured quick and responsive search results through optimized filtering logic.
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-# Setup Instructions:
-### Setup Instructions:
-* Clone the repository: `git clone <repository-url>`
-* Navigate to the project directory: `cd project-directory`
-* Install dependencies: `npm install`
-* Start the server: `node index.js`
-* Access the application at: `http://localhost:3000/search?title=<search-query>`
-# Usage Example:
+4. **Start the application**:
+    ```bash
+    npm start
+    ```
 
-To search for a book titled "1984": http://localhost:3000/search?title=1984
+5. **Access the application**:
+    Open your web browser and go to `http://localhost:3000`.
+
+## Project Structure
+The project is structured as follows:
+
+- **src/components**: Contains the individual React components (e.g., `SearchForm`, `BookList`).
+- **src/App.js**: The main App component.
+- **src/App.css**: The main stylesheet.
+- **public**: Contains the HTML template and other public assets.
+
+This project demonstrates a modern approach to building a search interface with a rich and interactive user experience, highlighting effective information retrieval techniques.
