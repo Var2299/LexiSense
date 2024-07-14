@@ -1,69 +1,70 @@
-# Project Title: BooksExplorer(Information Retrieval System)
-# BooksExplorer App
+# Getting Started with Create React App
 
-This project allows users to search for books using the Google Books API and displays the results in a user-friendly interface. It includes advanced features such as a dynamic search form, animated background, and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![1](https://github.com/user-attachments/assets/b0e3e4f8-6af5-485e-b9ec-a07b48be240d)
-![2](https://github.com/user-attachments/assets/0e596c9a-6f23-40a6-975e-cd39a2bde3ce)
-![3](https://github.com/user-attachments/assets/8cc9a0a1-2d81-49a5-bd54-ca5747ac8d4e)
-![4](https://github.com/user-attachments/assets/75fdddda-ea8c-4487-bf13-12f3b44be837)
-![5](https://github.com/user-attachments/assets/38a7cf14-ead9-4138-8fe5-6da98d6bb4d0)
+## Available Scripts
 
+In the project directory, you can run:
 
+### `npm start`
 
-## Features
-- **Search Functionality**: Users can search for books by entering keywords.
-- **Dynamic Book Listings**: Displays book information including title, author, description, and a preview link.
-- **Animated Background**: Features a visually appealing, animated background.
-- **Changing Heading Text**: The heading text changes colors to maintain visibility against the changing background.
-- **Information Retrieval**: Demonstrates efficient information retrieval from a large dataset using the Google Books API.
-- **Responsive Design**: Ensures the application works seamlessly across devices.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies & Tools Used
-### Frontend
-- React.js
-- CSS3
-- HTML5
-- JavaScript
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### APIs
-- Google Books API
+### `npm test`
 
-### Development Tools
-- VS Code
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation and Usage
-To use this app, you can follow these steps:
+### `npm run build`
 
-1. **Clone the repository**:
-    ```bash
-    git clone <repository-url>
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. **Navigate to the project directory**:
-    ```bash
-    cd project-directory
-    ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. **Start the application**:
-    ```bash
-    npm start
-    ```
+### `npm run eject`
 
-5. **Access the application**:
-    Open your web browser and go to `http://localhost:3000`.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Project Structure
-The project is structured as follows:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- **src/components**: Contains the individual React components (e.g., `SearchForm`, `BookList`).
-- **src/App.js**: The main App component.
-- **src/App.css**: The main stylesheet.
-- **public**: Contains the HTML template and other public assets.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-This project demonstrates a modern approach to building a search interface with a rich and interactive user experience, highlighting effective information retrieval techniques.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

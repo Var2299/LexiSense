@@ -1,0 +1,73 @@
+/* src/components/BookList.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif; /* Apply Open Sans font */
+}
+
+.book {
+  display: flex;
+  background-color: #e3f2fd; /* Cool light blue background */
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  padding: 20px;
+  align-items: center; /* Center content vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease;
+  height: 400px; /* Set a fixed height */
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.book-details {
+  flex: 1;
+  overflow: hidden; /* Hide overflow text */
+}
+
+.book h2 {
+  font-size: 1.5rem; /* Slightly larger font size */
+  color: #1565c0; /* Cool heading color */
+  margin: 0 0 10px 0;
+  text-decoration: underline; /* Underline heading */
+}
+
+.book p {
+  font-size: 1rem;
+  color: #222; /* Darker black color */
+  margin: 10px 0; /* Increased margin for better spacing */
+  line-height: 1.6; /* Improved line height for readability */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis to indicate more text */
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limit description to 5 lines */
+  -webkit-box-orient: vertical;
+}
+
+.book a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  align-self: flex-start; /* Align button to the start of the flex container */
+}
+
+.book a:hover {
+  background-color: #0056b3;
+}
