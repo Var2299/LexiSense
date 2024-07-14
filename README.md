@@ -1,7 +1,15 @@
-# Project Title: BookExplorer(Information Retrieval System)
-# Books Search App
+# Project Title: BooksExplorer(Information Retrieval System)
+# BooksExplorer App
 
 This project allows users to search for books using the Google Books API and displays the results in a user-friendly interface. It includes advanced features such as a dynamic search form, animated background, and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data.
+
+![1](https://github.com/user-attachments/assets/b0e3e4f8-6af5-485e-b9ec-a07b48be240d)
+![2](https://github.com/user-attachments/assets/0e596c9a-6f23-40a6-975e-cd39a2bde3ce)
+![3](https://github.com/user-attachments/assets/8cc9a0a1-2d81-49a5-bd54-ca5747ac8d4e)
+![4](https://github.com/user-attachments/assets/75fdddda-ea8c-4487-bf13-12f3b44be837)
+![5](https://github.com/user-attachments/assets/38a7cf14-ead9-4138-8fe5-6da98d6bb4d0)
+
+
 
 ## Features
 - **Search Functionality**: Users can search for books by entering keywords.
