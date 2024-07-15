@@ -7,7 +7,6 @@ function App() {
   const [books, setBooks] = useState([]);
   const [headingText, setHeadingText] = useState('Book Search');
 
-  // Function to handle changing the heading text
   useEffect(() => {
     const headings = [
       'Discover Books',
@@ -27,7 +26,7 @@ function App() {
       'Hidden Gems',
       'Must-Read Novels'
     ];
-    
+
     let index = 0;
 
     const interval = setInterval(() => {
@@ -38,9 +37,23 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  const handleSearch = (data) => {
-    setBooks(data);
+  const handleSearch = async (searchTerm) => {
+    try {
+      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchTerm}`);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      // Simulate sentiment numbers (replace with actual sentiment data)
+      const sentimentData = data.items.map(() => Math.floor(Math.random() * 20) - 10);
+      setBooks(data.items);
+      setSentimentData(sentimentData); // Set sentiment data
+    } catch (error) {
+      console.error('Error fetching books:', error);
+    }
   };
+
+  const [sentimentData, setSentimentData] = useState([]);
 
   return (
     <div className="App">
@@ -51,7 +64,7 @@ function App() {
             <SearchForm onSearch={handleSearch} />
           </div>
         </div>
-        <BookList books={books} />
+        <BookList books={books} sentimentData={sentimentData} />
       </header>
     </div>
   );
