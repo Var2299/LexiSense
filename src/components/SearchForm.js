@@ -1,5 +1,3 @@
-// SearchForm.js
-
 import React, { useState } from 'react';
 
 const SearchForm = ({ onSearch }) => {
@@ -7,19 +5,7 @@ const SearchForm = ({ onSearch }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform search or API call with searchTerm
-    fetchBooks(searchTerm); // Example function to fetch books based on searchTerm
-  };
-
-  const fetchBooks = async (searchTerm) => {
-    try {
-      // Example: Perform API call or fetch logic
-      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchTerm}`);
-      const data = await response.json();
-      onSearch(data.items); // Pass fetched data to parent component
-    } catch (error) {
-      console.error('Error fetching books:', error);
-    }
+    onSearch(searchTerm);
   };
 
   return (
