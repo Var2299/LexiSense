@@ -1,4 +1,4 @@
-# BooksExplorer-NLP-Enhanced 
+# BooksExplorer (Enhanced Book Search Application)
 
 This project allows users to search for books using the Google Books API and displays the results in a user-friendly interface. It includes advanced features such as a dynamic search form, sentiment analysis using Natural Language Processing (NLP), and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data, with added insights from sentiment analysis.
 
