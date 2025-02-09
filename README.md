@@ -37,7 +37,7 @@ AI-Powered Book Search, a platform integrating NLP-driven sentiment analysis to 
 - VS Code
   
 ## Demo
-A live demo of the project is available at [this link](https://booksexplorer-enhanced-book-search.onrender.com) 
+A live demo of the project is available at [this link](https://booksexplorer-enhanced-book-search.onrender.com](https://lexi-sense.vercel.app/) 
 
 ## Installation and Usage
 
