@@ -1,6 +1,6 @@
-# BooksExplorer (Enhanced Book Search Application)
+# LexiSense
 
-This project allows users to search for books using the Google Books API and displays the results in a user-friendly interface. It includes advanced features such as a dynamic search form, sentiment analysis using Natural Language Processing (NLP), and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data, with added insights from sentiment analysis.
+AI-Powered Book Search, a platform integrating NLP-driven sentiment analysis to provide insights on book descriptions with sentiment scores and emojis It includes advanced features such as a dynamic search form, sentiment analysis using Natural Language Processing (NLP), and styled book listings. It effectively demonstrates the principles of information retrieval by allowing efficient search and display of relevant book data, with added insights from sentiment analysis.
 
 ![1](https://github.com/user-attachments/assets/86dc0c34-289d-4efd-a64d-e43235579564)
 ![2](https://github.com/user-attachments/assets/14308f8a-1874-4a8c-94b7-5f1c571e96cc)
