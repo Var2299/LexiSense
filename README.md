@@ -5,7 +5,7 @@ AI-Powered Book Search, a platform integrating NLP-driven sentiment analysis to 
 ![l-m](public/l-m.gif)
 ![2](https://github.com/user-attachments/assets/14308f8a-1874-4a8c-94b7-5f1c571e96cc)
 ![3](https://github.com/user-attachments/assets/ea892818-d26e-4d8d-abc7-cd575804198f)
-![6](https://github.com/user-attachments/assets/bab1d998-1059-41c7-91fa-c706716d75e2)
+![l-m](public/l-ss.gif)
 ![8](https://github.com/user-attachments/assets/8c93be14-391d-4d2d-8ff7-242acadb6c9c)
 ![7](https://github.com/user-attachments/assets/353c0933-94a1-4caa-be6f-e6c2377d54de)
 
